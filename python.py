@@ -8,7 +8,7 @@ resource "aws_s3_bucket" "public_bucket" {
   }
 }
 
-resource "random_integer" "gand" {
+resource "random_integer" "rand" {
   min = 10000
   max = 22222
 }
