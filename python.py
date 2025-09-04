@@ -4,7 +4,7 @@ resource "aws_s3_bucket" "public_bucket" {
 
   tags = {
     Name        = "PublicBucket"
-    Environment = "Dev"
+    Environment = "test"
   }
 }
 
